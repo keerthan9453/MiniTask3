@@ -7,42 +7,6 @@ A decentralized web application (DApp) built using the Internet Computer Protoco
 
 This project aims to provide a simple yet powerful decentralized system to track student academic performance in real-time. By leveraging Rust and React, the app integrates a robust backend with an interactive frontend. The PDF generation allows for offline portability and professional documentation of performance.
 
-✨ Key Features
-
-✅ Add or update student data (Name, Marks, Subjects)
-
-❌ Delete individual student records
-
-📊 Automatic grade calculation based on average score
-
-🔠 Alphabetically sorted student list for better readability
-
-📄 Auto-generated PDF report cards, one per student
-
-📷 Includes screenshot and screen recording of the DApp
-
-🎨 Simple, responsive, and accessible UI
-
-🖼 Preview
-
-📷 Screenshot
-demo.png
-🎥 Screen Recording
-Watch Demo
-
-🧰 Tech Stack
-
-Layer	Tech
-
-Frontend	React.js, JavaScript, jsPDF
-
-Backend	Rust, Candid, ic-cdk, Wasm
-
-Deployment	DFX CLI, Internet Computer Canisters
-
-Tools	Visual Studio Code, Git, npm
-
-🏁 Getting Started
 
 📦 Prerequisites
 
