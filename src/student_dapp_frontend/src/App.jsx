@@ -93,7 +93,7 @@ export default function App() {
 
       // Header
       doc.setFontSize(22);
-      doc.text("Student Report Card", pageWidth / 2, 20, { align: "center" });
+      doc.text("Students Report Card", pageWidth / 2, 20, { align: "center" });
 
       // Box container
       const startX = 20;
@@ -107,13 +107,13 @@ export default function App() {
 
       // Student Name
       doc.setFontSize(16);
-      doc.text("Name:", startX + 10, startY + 20);
+      doc.text("Name of the student:", startX + 10, startY + 20);
       doc.setFontSize(16);
       doc.text(student.name, startX + 50, startY + 20);
 
       // Total Marks
       doc.setFontSize(14);
-      doc.text("Total Marks:", startX + 10, startY + 40);
+      doc.text("Total Marks Are:", startX + 10, startY + 40);
       doc.text(student.total_marks.toString(), startX + 50, startY + 40);
 
       // Subjects
@@ -151,7 +151,7 @@ export default function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <h1>📘 Student Report Card Dapp</h1>
+      <h1>Student Report Card Dapp</h1>
 
       <div style={{ marginBottom: "1rem" }}>
         <input
@@ -174,10 +174,10 @@ export default function App() {
           value={form.subjects}
           onChange={handleChange}
         />
-        <button onClick={handleAddOrUpdate}>Add / Update</button>
+        <button onClick={handleAddOrUpdate}>Add/Append</button>
       </div>
 
-      <h2>📋 Student List</h2>
+      <h2>Student List</h2>
       {students.length === 0 ? (
         <p>No students yet.</p>
       ) : (
@@ -204,7 +204,7 @@ export default function App() {
       )}
 
       <button onClick={generatePDF} style={{ marginTop: "1rem" }}>
-        Download PDF Report Cards
+        Download PDF Report
       </button>
     </div>
   );
