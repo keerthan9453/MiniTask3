@@ -105,28 +105,7 @@ Use the Download PDF Report Cards button to export all student reports.
 The backend is implemented in Rust and handles:
 
 add_student: Insert/update student entry
-
-list_students: Retrieve all student data
-
-delete_student: Remove a student
-
-Data is stored in memory (non-persistent hash map)
-
-💡 Future Improvements
-
-🔒 Persistent storage using stable memory
-
-🧠 Smart grading logic with feedback
-
-📬 Emailing PDF reports
-
-👥 Authentication using Internet Identity
-
-🙋‍♂️ Author
-
-Built with ❤️ by Shannu
-
-Contributions, stars, and feedback are welcome!
+dback are welcome!
 
 📜 License
 
